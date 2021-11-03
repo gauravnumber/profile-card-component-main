@@ -1,0 +1,12 @@
+$dark-cyan: hsl(185, 75%, 39%);
+
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

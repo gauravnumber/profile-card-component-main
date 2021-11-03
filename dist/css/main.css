@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  background-position: 0 -300%;
+  background-attachment: fixed;
+  background-size: 30rem;
+}
+
+/*# sourceMappingURL=main.css.map */

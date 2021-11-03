@@ -1,0 +1,16 @@
+@import "config";
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  background-color: $dark-cyan;
+  background-image: url("../images/bg-pattern-top.svg");
+  background-repeat: no-repeat;
+  background-position: 0 -300%;
+  // background-position: top left;
+  background-attachment: fixed;
+  background-size: 30rem;
+  // background-size: 20rem;
+  // background: url("../images/bg-pattern-top.svg") no-repeat top left fixed 20rem;
+  // background: url("../images/bg-pattern-card.svg");
+}
