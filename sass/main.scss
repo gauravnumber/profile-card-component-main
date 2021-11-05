@@ -89,11 +89,14 @@ h1,
 h2 {
   font-family: "Kumbh Sans", sans-serif;
   color: $dark-desaturated-blue;
+  font-size: 1em;
 }
 
 p {
   // font-size: 18px;
   margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.7em;
   font-weight: 400;
   color: $dark-grayish-blue;
 }
@@ -156,6 +159,7 @@ p {
   justify-content: space-between;
 
   padding: 1rem;
+  margin: 0 1rem;
 
   // border-radius: 0 0 1.2rem 1.2rem;
   // background-color: #fff;

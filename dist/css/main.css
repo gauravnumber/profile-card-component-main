@@ -53,10 +53,13 @@ h1,
 h2 {
   font-family: "Kumbh Sans", sans-serif;
   color: #2d3248;
+  font-size: 1em;
 }
 
 p {
   margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.7em;
   font-weight: 400;
   color: #6a6f81;
 }
@@ -104,6 +107,7 @@ p {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  margin: 0 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
