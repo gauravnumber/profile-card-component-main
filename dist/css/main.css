@@ -110,6 +110,11 @@ p {
 }
 
 @media screen and (max-width: 400px) {
+  body {
+    background-position: -66vw -30vh, 44vw 57vh;
+    background-size: 23em, 32em;
+  }
+
   main {
     width: 18rem;
   }
