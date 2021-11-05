@@ -1,2 +1,3 @@
 scripts:
   sass: sass -w sass:dist/css
+  deploy: gh-pages -d dist
