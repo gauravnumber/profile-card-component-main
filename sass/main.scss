@@ -20,14 +20,16 @@ body {
 
   // background: $dark-cyan url("../images/bg-pattern-top.svg") no-repeat 0 -300%;
 
-  background: url("../images/bg-pattern-top.svg") left top no-repeat;
-  // ,
-  // url("../images/bg-pattern-bottom.svg") right bottom no-repeat;
+  background: url("../images/bg-pattern-top.svg") left top no-repeat,
+    url("../images/bg-pattern-bottom.svg") right bottom no-repeat;
 
-  background-position: left -50%;
+  background-position: left -36vh, 46vw 55vh;
+  // background-position: left -36vh, right bottom;
+  // background-position: left -50%;
   // , 1%;
   // background-position: 0 0, -10% -10%;
-  background-size: 30em;
+  background-size: 36em, 60em;
+  // background-size: 30em;
   // background-size: 40em, 40em;
   background-color: $dark-cyan;
 
@@ -74,8 +76,8 @@ h1 {
   // position: absolute;
   // top: 50%;
   // left: 10%;
-  font-size: 1.4em;
-  font-weight: 700;
+  // font-size: 1.4em;
+  // font-weight: 700;
   margin-top: 0;
   // text-align: center;
   // vertical-align: middle;
@@ -90,6 +92,7 @@ h2 {
   font-family: "Kumbh Sans", sans-serif;
   color: $dark-desaturated-blue;
   font-size: 1em;
+  font-weight: 700;
 }
 
 p {

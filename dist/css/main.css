@@ -22,9 +22,9 @@ body {
   font-weight: 700;
   height: 100vh;
   overflow: hidden;
-  background: url("../images/bg-pattern-top.svg") left top no-repeat;
-  background-position: left -50%;
-  background-size: 30em;
+  background: url("../images/bg-pattern-top.svg") left top no-repeat, url("../images/bg-pattern-bottom.svg") right bottom no-repeat;
+  background-position: left -36vh, 46vw 55vh;
+  background-size: 36em, 60em;
   background-color: #19a2ae;
 }
 
@@ -40,8 +40,6 @@ main {
 }
 
 h1 {
-  font-size: 1.4em;
-  font-weight: 700;
   margin-top: 0;
 }
 
@@ -54,6 +52,7 @@ h2 {
   font-family: "Kumbh Sans", sans-serif;
   color: #2d3248;
   font-size: 1em;
+  font-weight: 700;
 }
 
 p {
